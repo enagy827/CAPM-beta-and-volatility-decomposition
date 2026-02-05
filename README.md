@@ -51,23 +51,23 @@ CAPM-beta-and-volatility-decomposition/
 ## 📈 Visualizations
 
 ### 1. Industry Beta Evolution
-![Beta Trends](outputs/beta_trends_by_industry.png)
+![Beta Trends](outputs/figures/beta_trends_by_industry.png)
 *Mean beta estimates for six major industries from 1996-2023 using 24-month rolling windows. Notable spikes occur during the 2008 financial crisis and 2020 COVID-19 pandemic, reflecting increased market correlation during stressed conditions.*
 
 ### 2. Volatility Decomposition Over Time
-![Volatility Components](outputs/volatility_decomposition_time_series.png)
+![Volatility Components](outputs/figures/volatility_decomposition_time_series.png)
 *Total, systematic, and idiosyncratic volatility components over the sample period. Idiosyncratic volatility (green) consistently dominates systematic volatility (red), even during crisis periods. Shaded regions indicate major market stress events.*
 
 ### 3. Beta Quintile Portfolio Returns
-![Beta Returns](outputs/beta_quintile_returns.png)
+![Beta Returns](outputs/figures/beta_quintile_returns.png)
 *Average monthly excess returns by beta quintile. High-beta portfolios (Q5) earn 1.14% higher monthly returns (equal-weighted) than low-beta portfolios (Q1), translating to approximately 13.7% annually. The pattern holds across both equal-weighted and value-weighted schemes.*
 
 ### 4. Idiosyncratic Volatility Analysis
-![Ivol Analysis](outputs/ivol_quintile_analysis.png)
+![Ivol Analysis](outputs/figures/ivol_quintile_analysis.png)
 *Left panel: Average idiosyncratic volatility at portfolio formation, confirming monotonic sorting. Right panel: Returns by quintile showing extreme non-linearity—Q1-Q4 earn similar returns, but Q5 dramatically outperforms with 2.68% monthly (EW) and 3.68% monthly (VW) returns.*
 
 ### 5. Cumulative Returns: High vs Low Volatility
-![Cumulative Returns](outputs/cumulative_returns_ivol_Q5_vs_Q1.png)
+![Cumulative Returns](outputs/figures/cumulative_returns_ivol_Q5_vs_Q1.png)
 *Growth of $1 invested in high (Q5) vs. low (Q1) idiosyncratic volatility portfolios. Q5 achieves 120x growth over 28 years but with extreme volatility and severe drawdowns during crises. Q1 shows steady 5x growth with minimal turbulence, illustrating the path-dependency tradeoff.*
 
 ---
@@ -282,11 +282,6 @@ This project demonstrates proficiency in:
 - Statistical analysis and hypothesis testing
 - Data visualization and communication of complex findings
 - Technical writing for finance audiences
-
-The analysis addresses three fundamental questions in asset pricing:
-1. Does systematic risk (beta) command a return premium as CAPM predicts?
-2. Can idiosyncratic risk—theoretically diversifiable—earn excess returns?
-3. How do these risk dimensions interact to explain cross-sectional return variation?
 
 ---
 
